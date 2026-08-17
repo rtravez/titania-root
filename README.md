@@ -17,7 +17,7 @@ Usuario: **admin**
 Contraseña: **12345**
 #
 Pruebas Postman
-`Sofka.postman_collection.json`
+`titania.postman_collection.json`
 #
 
 #Imagenes docker:
