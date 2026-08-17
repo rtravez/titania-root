@@ -101,7 +101,7 @@ Una vez levantado el entorno:
 - PostgreSQL: `localhost:5432`
 - OAuth token: `http://localhost:8080/mscServices/oauth/token`
 - `msc-service`: `http://localhost:8080/mscServices`
-- `msa-service`: `http://localhost:1987/msaServices`
+
 
 Si cambias los puertos o credenciales, ajusta el archivo `docker-compose.yml` y, si aplica, la configuración de `application.properties`.
 
