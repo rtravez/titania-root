@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "d658dfc2-f9d3-4273-9215-9566f5f9321f",
-    "name": "Sofka Copy",
+    "name": "Titania",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "11756592"
   },
@@ -141,6 +141,50 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "Find registers",
+          "event": [
+            {
+              "listen": "prerequest",
+              "script": {
+                "exec": [
+                  "postman.setGlobalVariable(\"creationDate\",Date.parse(new Date(\"2022-10-29 00:00:00\")));"
+                ],
+                "type": "text/javascript",
+                "packages": {},
+                "requests": {}
+              }
+            }
+          ],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{    \n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "{{host}}/mscServices/api/registros",
+              "host": [
+                "{{host}}"
+              ],
+              "path": [
+                "mscServices",
+                "api",
+                "registros"
+              ]
+            }
+          },
+          "response": []
         }
       ]
     },
@@ -166,13 +210,13 @@
           "type": "basic",
           "basic": [
             {
-              "key": "password",
-              "value": "",
+              "key": "username",
+              "value": "titania-web",
               "type": "string"
             },
             {
-              "key": "username",
-              "value": "",
+              "key": "password",
+              "value": "12345",
               "type": "string"
             }
           ]

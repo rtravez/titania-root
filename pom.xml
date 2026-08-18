@@ -7,7 +7,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.sofka.msc</groupId>
+	<groupId>com.titania.msc</groupId>
 	<artifactId>msc-root</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Customers microservice</description>
